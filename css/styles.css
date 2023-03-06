@@ -23,6 +23,9 @@ body{
 .color-2 {
     color: #737373;
 }
+.color-3 {
+    background-color: #151515;
+}
 
 .carousel-btn {
     height: 50px;
@@ -76,4 +79,9 @@ body{
 .card-arrow-btn:hover {
     color: #FFFFFF;
     background-color: #EB5757;
+}
+
+.alarm {
+    height: 50px;
+    width: 50px;
 }
