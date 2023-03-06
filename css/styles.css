@@ -26,6 +26,9 @@ body{
 .color-3 {
     background-color: #151515;
 }
+.color-4 {
+    background-color: #F3F3F3;
+}
 
 .carousel-btn {
     height: 50px;
@@ -84,4 +87,28 @@ body{
 .alarm {
     height: 50px;
     width: 50px;
+}
+.rating {
+    height: 30px;
+    width: 30px;
+}
+
+.cart-hover {
+    position: relative;
+    display: inline-block;
+}
+.cart-hover:hover .cart{
+    display: block;
+}
+.cart {
+	padding-top: 7px;	
+	padding-right: 7px;
+	position: absolute;
+	right: 25px;
+	top: 25px;
+	display: none;
+}
+
+.cart a {
+	color: #e61616;
 }
