@@ -1,0 +1,44 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Inter&family=Lobster&family=Manrope&family=Open+Sans&family=Poppins&family=Rubik&family=Work+Sans&display=swap');
+
+/* 
+font-family: 'EB Garamond', serif;
+font-family: 'Lobster', cursive;
+font-family: 'Manrope', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Rubik', sans-serif;
+font-family: 'Work Sans', sans-serif;
+font-family: 'Inter', sans-serif;
+*/
+
+/* common styles */
+body{
+    font-family: 'Poppins', serif;
+}
+
+.carousel-btn {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 0;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.carousel-btn:hover {
+    background-color: #FF3811;
+}
+
+.carousel-position {
+    position: relative;
+    top: -80px;
+    right: 60px;
+    float: right;
+}
+.cd-carousel-caption {
+    position: absolute;
+    top: 15%;
+    left: 70px;
+}
+.btn-outline-white:hover{
+    background-color: #FF3811;
+}
