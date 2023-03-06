@@ -17,6 +17,10 @@ body{
     font-family: 'Poppins', serif;
 }
 
+.color-1 {
+    color: #FF3811;
+}
+
 .carousel-btn {
     height: 50px;
     width: 50px;
@@ -41,4 +45,13 @@ body{
 }
 .btn-outline-white:hover{
     background-color: #FF3811;
+}
+
+.about-us-parts {
+    position: relative;
+    z-index: 2;
+    top: -150px;
+    left: 150px;
+    border-top: 8px solid white;
+    border-left: 8px solid white;
 }
