@@ -20,6 +20,9 @@ body{
 .color-1 {
     color: #FF3811;
 }
+.color-2 {
+    color: #737373;
+}
 
 .carousel-btn {
     height: 50px;
@@ -54,4 +57,23 @@ body{
     left: 150px;
     border-top: 8px solid white;
     border-left: 8px solid white;
+}
+
+.card-img {
+    transition: transform 0.2s ease-in-out !important;
+}
+.card-img:hover {
+    transform: scale(0.9) !important;
+}
+.card-arrow-btn {
+    color: #EB5757;
+    background-color: rgb(246, 227, 227);
+    border: 0;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+.card-arrow-btn:hover {
+    color: #FFFFFF;
+    background-color: #EB5757;
 }

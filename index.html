@@ -23,7 +23,7 @@
 
     <!-- header -->
     <header>
-        <nav class="navbar navbar-expand-lg py-4">
+        <nav id="bodyScroll" class="navbar sticky-top navbar-expand-lg navbar-light bg-light py-4">
             <div class="container">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
@@ -34,19 +34,19 @@
                     <img class="me-auto" src="assets/logo.svg" alt="">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link">Services</a>
+                            <a class="nav-link" href="#services">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link">Blog</a>
+                            <a class="nav-link" href="#blog">Blog</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link">Contact</a>
+                            <a class="nav-link" href="#contact">Contact</a>
                         </li>
                     </ul>
                     <div class="d-flex align-items-center">
@@ -57,15 +57,19 @@
                 </div>
             </div>
         </nav>
-        
-        <div class="container ">
+
+
+
+        <div id="home" class="container mt-5">
             <div id="carouselExampleDark" class="carousel slide">
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="10000">
                         <img src="assets/images/homeCarousel/1.png" class="d-block w-100" alt="...">
                         <div class="cd-carousel-caption text-white d-none d-md-block w-50">
-                            <h1 class="display-1 fw-bold">Affordable<br>Price For Car Servicing</h1 class="display-1 fw-bold">
-                            <p>There are many variations of passages of available, but the majority have suffered alteration in some form.</p>
+                            <h1 class="display-1 fw-bold">Affordable<br>Price For Car Servicing</h1
+                                class="display-1 fw-bold">
+                            <p>There are many variations of passages of available, but the majority have suffered
+                                alteration in some form.</p>
                             <button class="btn btn-outline-white me-3 mt-3" type="submit">Discover More</button>
                             <button class="btn btn-outline-white mt-3" type="submit">Latest Project</button>
                         </div>
@@ -73,8 +77,10 @@
                     <div class="carousel-item " data-bs-interval="10000">
                         <img src="assets/images/homeCarousel/2.png" class="d-block w-100" alt="...">
                         <div class="cd-carousel-caption text-white d-none d-md-block w-50">
-                            <h1 class="display-1 fw-bold">Affordable<br>Price For Car Servicing</h1 class="display-1 fw-bold">
-                            <p>There are many variations of passages of available, but the majority have suffered alteration in some form.</p>
+                            <h1 class="display-1 fw-bold">Affordable<br>Price For Car Servicing</h1
+                                class="display-1 fw-bold">
+                            <p>There are many variations of passages of available, but the majority have suffered
+                                alteration in some form.</p>
                             <button class="btn btn-outline-white me-3 mt-3" type="submit">Discover More</button>
                             <button class="btn btn-outline-white mt-3" type="submit">Latest Project</button>
                         </div>
@@ -82,8 +88,10 @@
                     <div class="carousel-item " data-bs-interval="10000">
                         <img src="assets/images/homeCarousel/3.png" class="d-block w-100" alt="...">
                         <div class="cd-carousel-caption text-white d-none d-md-block w-50">
-                            <h1 class="display-1 fw-bold">Affordable<br>Price For Car Servicing</h1 class="display-1 fw-bold">
-                            <p>There are many variations of passages of available, but the majority have suffered alteration in some form.</p>
+                            <h1 class="display-1 fw-bold">Affordable<br>Price For Car Servicing</h1
+                                class="display-1 fw-bold">
+                            <p>There are many variations of passages of available, but the majority have suffered
+                                alteration in some form.</p>
                             <button class="btn btn-outline-white me-3 mt-3" type="submit">Discover More</button>
                             <button class="btn btn-outline-white mt-3" type="submit">Latest Project</button>
                         </div>
@@ -91,8 +99,10 @@
                     <div class="carousel-item " data-bs-interval="10000">
                         <img src="assets/images/homeCarousel/4.png" class="d-block w-100" alt="...">
                         <div class="cd-carousel-caption text-white d-none d-md-block w-50">
-                            <h1 class="display-1 fw-bold">Affordable<br>Price For Car Servicing</h1 class="display-1 fw-bold">
-                            <p>There are many variations of passages of available, but the majority have suffered alteration in some form.</p>
+                            <h1 class="display-1 fw-bold">Affordable<br>Price For Car Servicing</h1
+                                class="display-1 fw-bold">
+                            <p>There are many variations of passages of available, but the majority have suffered
+                                alteration in some form.</p>
                             <button class="btn btn-outline-white me-3 mt-3" type="submit">Discover More</button>
                             <button class="btn btn-outline-white mt-3" type="submit">Latest Project</button>
                         </div>
@@ -115,7 +125,7 @@
     <!-- main -->
     <main class="container">
         <!-- about us section -->
-        <section class="my-5">
+        <section id="about" class="my-5">
             <div class="row m-0">
                 <div class="col-lg-6 p-0">
                     <img class="h-75 w-75 rounded about-us-person" src="assets/images/about_us/person.jpg" alt="">
@@ -127,13 +137,111 @@
                     <h5 class="color-1">About Us</h5>
                     <h1 class="mt-4">We are qualified & of experience in this field</h1>
                     <p class="mt-4">
-                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomized words which don't look even slightly believable. <br> <br>
-                        The majority have suffered alteration in some form, by injected humour, or randomized words which don't look even slightly believable. 
+                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                        alteration in some form, by injected humour, or randomized words which don't look even slightly
+                        believable. <br> <br>
+                        The majority have suffered alteration in some form, by injected humour, or randomized words
+                        which don't look even slightly believable.
                     </p>
                     <button class="btn btn-outline-danger mt-4">Get More Info</button>
                 </div>
             </div>
+        </section>
 
+        <section id="services" class="container mb-5 p-0">
+            <div class="text-center w-50 mx-auto mb-5">
+                <h5 class="color-1">Service</h5>
+                <h1>Our Service Area</h1>
+                <p class="color-2">The Majority have suffered alteration in some form, injected humour, or randomized
+                    words which don't look even slightly believable.</p>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="assets/images/services/2.jpg" class="card-img-top card-img" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Electrical System</h5>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p class="color-1 m-0">Price: $20.00</p>
+                                <button class="card-arrow-btn">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="assets/images/services/4.jpg" class="card-img-top card-img" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Engine Diagnostics</h5>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p class="color-1 m-0">Price: $20.00</p>
+                                <button class="card-arrow-btn">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="assets/images/services/6.jpg" class="card-img-top card-img" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Auto Car Repair</h5>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p class="color-1 m-0">Price: $20.00</p>
+                                <button class="card-arrow-btn">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="assets/images/services/3.jpg" class="card-img-top card-img" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Machine Repair</h5>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p class="color-1 m-0">Price: $20.00</p>
+                                <button class="card-arrow-btn">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="assets/images/services/1.jpg" class="card-img-top card-img" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Engin Oil</h5>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p class="color-1 m-0">Price: $20.00</p>
+                                <button class="card-arrow-btn">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="assets/images/services/5.jpg" class="card-img-top card-img" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Tracking System</h5>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p class="color-1 m-0">Price: $20.00</p>
+                                <button class="card-arrow-btn">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
         </section>
     </main>
 
